@@ -6,6 +6,7 @@
 - 2026-06-17: Unpacked experiment packages into `experiments/` and the proportional arithmetic module into `modules/`.
 - 2026-06-17: Added Russian and English root README files.
 - 2026-06-17: Verified `modules/pifs_proportion_module` with `python3 -m unittest discover` from the module directory.
+- 2026-06-17: Updated the repository to the v4 journal package with `main_ru_v4.*`, Machin-certificate demo scripts, and refreshed Russian/English README documentation.
 
 ## Next
 
