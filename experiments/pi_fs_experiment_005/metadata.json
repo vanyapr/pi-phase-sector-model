@@ -1,0 +1,32 @@
+{
+  "experiment": "005",
+  "description": "finite matrix-sector locate MVP",
+  "created": "2026-06-16 20:40:19",
+  "index_stats": {
+    "H_decimal_positions": 500000,
+    "Lmax4": 16,
+    "N4_cells_total": 4294967296,
+    "occupied_cells": 499975,
+    "occupancy_fraction": 0.00011640950106084347,
+    "decimal_guard_digits_P": 34,
+    "build_seconds": 0.7973825931549072,
+    "source": "generated decimal pi digits with mpmath",
+    "gen_seconds": 2.983380079269409,
+    "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+  },
+  "summary": {
+    "queries_total": 19,
+    "direct_found": 15,
+    "contained_returned": 15,
+    "intersect_returned": 15,
+    "contained_precision": 1.0,
+    "intersect_precision": 1.0,
+    "intersect_matches_direct_first_fraction": 1.0
+  },
+  "files": [
+    "REPORT.md",
+    "finite_matrix_sector_locate_queries.csv",
+    "locate_positions_vs_direct.png",
+    "zero_block_query_counts.png"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "experiment": "015",
+  "description": "recover next decimal digit from 100-tail plus cross-base certificate",
+  "source": "generated decimal pi digits with mpmath",
+  "generation_seconds": 16.747454404830933,
+  "cuts": [
+    10000,
+    50000,
+    100000,
+    500000,
+    1000000,
+    1500000
+  ],
+  "known_tail_len": 100,
+  "certificate_bases": [
+    4,
+    16
+  ],
+  "offsets": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+}

@@ -1,0 +1,2 @@
+dataset,L_base4,patterns_total,patterns_found,coverage,mean_first_pos_found,median_first_pos_found,max_first_pos_found,seconds
+random_base4,8,65536,65536,1.0,65516.34120178223,45220.5,680113,0.40971875190734863

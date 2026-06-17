@@ -1,0 +1,63 @@
+% !TEX program = lualatex
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\usepackage[russian,english]{babel}
+\setmainfont{Tinos}
+\setmonofont{DejaVu Sans Mono}
+\usepackage[a4paper,margin=22mm]{geometry}
+\usepackage{amsmath,amssymb,booktabs,longtable,tabularx,array,graphicx,hyperref,enumitem,xcolor}
+\hypersetup{colorlinks=true,linkcolor=blue!50!black,urlcolor=blue!50!black}
+\graphicspath{{figures/}}
+\title{Экспериментальное приложение к работе\\«Фазово-секторная адресация цифровых разложений»}
+\author{Иван Проскураков}
+\date{Эксперименты 001--018}
+\begin{document}
+\selectlanguage{russian}
+\maketitle
+
+\section*{Назначение приложения}
+Это приложение фиксирует ход исследования.  Его цель - показать не только итоговый положительный контур, но и отрицательные проверки, которые сузили пространство гипотез.
+
+\begin{longtable}{p{0.07\linewidth}p{0.22\linewidth}p{0.30\linewidth}p{0.32\linewidth}}
+\toprule
+№ & Название & Проверяемая идея & Итог \\
+\midrule
+\endfirsthead
+\toprule
+№ & Название & Проверяемая идея & Итог \\
+\midrule
+\endhead
+001 & Sector index and residue benchmark & Проверить, дают ли остатки по резонансным $K$ сжатие first-occurrence search. & Нет устойчивого lift. Секторный индекс работает, residue-only не работает. \\
+002 & Sector tree, chord margins, drift features & Проверить quadtree-pruning, хордовые margin, drift/2D features. & Префиксное отсечение работает; margin полезен; drift features не дают pi-specific predictor. \\
+003 & Sector transform matrices & Матрицы/пропорции между сетками. & Binary/quaternary exact; decimal/quaternary sparse; $1000$ нулей $\to L_4=1661$. \\
+004 & Matrix target transform + resonance coordinates & Проверить совместимость target transform и $M=1221q+r$. & Contained precision $1.0$ для малых нулевых блоков; резонансный адрес прикрепляется к $M$. \\
+005 & Finite matrix-sector locate MVP & Собрать первый конечный locate engine. & 19 запросов совпали с direct search; contained certificates строги. \\
+006 & Resonant spiral memory & Проверить память спиральных рукавов. & Short-step controls дают lift, но резонансные масштабы near random. \\
+007 & Walk-forward zero prediction & Прогнозировать следующие zero-block hits по прошлым. & Residue prediction не даёт robust lift относительно random/extreme baseline. \\
+008 & Inverse tree & Обратить сертификат и изучить ветвление. & Обратное дерево содержит $10^M$ ветвей; нужна branch compression/external certificate. \\
+009 & Quaternary resonant address read & Читать четверичные слова по резонансным указателям. & Указатели корректны, но простая выборка статистически near random. \\
+010 & Closed finite locate contour & Проверить полный контур на всех паттернах длины 2--5. & $111100$ паттернов; exact match с direct search для всех найденных. \\
+011 & Anchor-relative negative indexing & Проверить чтение с отрицательным offset вокруг якорей. & Работает как файловая адресация: anchor + occurrence + offset. \\
+012 & 100-digit boundary tail & Проверить уникальность 100-значного хвоста. & В тестах хвост уникален; ожидаемые ложные совпадения пренебрежимо малы. \\
+013 & Boundary continuation & Проверить 10 кандидатов на шаг + сертификат. & 100 будущих цифр восстановлены в backtest; ровно один кандидат принят. \\
+014 & Algebraic suffix recovery & Извлечь суффикс из cross-base certificate. & При достаточной глубине сертификата кандидатный суффикс становится единственным. \\
+015 & Next digit recovery & Проверить следующую цифру на границе $H=10^6$. & Получена цифра $3$; candidate count $1$. \\
+016 & External certificate lemma validation & Массово проверить лемму внешнего сертификата. & Без сертификата $10^k$ кандидатов; с достаточно глубоким сектором - один суффикс. \\
+017 & Next 10 digits by certificate & Восстановить следующий десятизначный блок на искусственной границе. & Для $H=2\cdot10^6$ получено $6121731251$, candidate count $1$. \\
+018 & Machin external certificate & Использовать независимую формулу Мэчина как источник сертификата. & На искусственных границах внешний сертификат схлопнул $10^{10}$ кандидатов до одного блока. \\
+\bottomrule
+\end{longtable}
+
+\section*{Главная экспериментальная граница}
+Эксперименты 001--009 показывают, какие простые предикторы не дают результата.  Эксперименты 010--018 показывают положительный контур: конечный поиск и сертифицированное продолжение при наличии внешнего секторного сертификата.  Поэтому итоговая граница такова:
+\begin{itemize}
+\item подтвержден finite locate внутри построенного горизонта;
+\item подтверждена пропорциональная cross-base сертификация;
+\item подтверждена лемма внешнего секторного сертификата;
+\item не подтверждён автономный beyond-horizon predictor без внешнего сертификата.
+\end{itemize}
+
+\section*{Реплицируемость}
+Архив содержит пакеты \texttt{pi\_fs\_experiment\_001\_package.zip}--\texttt{pi\_fs\_experiment\_018\_package.zip}, таблицы, графики и исходный модуль \texttt{pifs/proportion.py}.  Основные CSV-файлы вынесены в каталог \texttt{tables/} основного пакета.
+
+\end{document}

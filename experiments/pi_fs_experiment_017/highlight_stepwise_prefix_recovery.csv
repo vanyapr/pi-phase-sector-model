@@ -1,0 +1,11 @@
+step_k,recovered_prefix_of_hidden,true_prefix_of_hidden,candidate_count,success,L_cert
+1,6,6,1,True,86
+2,61,61,1,True,87
+3,612,612,1,True,88
+4,6121,6121,1,True,89
+5,61217,61217,1,True,90
+6,612173,612173,1,True,91
+7,6121731,6121731,1,True,91
+8,61217312,61217312,1,True,92
+9,612173125,612173125,1,True,93
+10,6121731251,6121731251,1,True,94

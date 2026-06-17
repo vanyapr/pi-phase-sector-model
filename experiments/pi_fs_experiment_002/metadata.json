@@ -1,0 +1,8 @@
+{
+  "H": 1000000,
+  "Q": 4,
+  "B": 4,
+  "source_note": "reused generated base-4 pi digits from prior run",
+  "rng_seed": 20260616,
+  "first_80_base4_digits": "02100333122220202011220300203103010301212022023200031300130310102210002103200202"
+}

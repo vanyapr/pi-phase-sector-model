@@ -1,0 +1,23 @@
+.DS_Store
+
+# LaTeX build outputs
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Python local artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local editor state
+.idea/
+.vscode/

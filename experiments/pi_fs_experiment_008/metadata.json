@@ -1,0 +1,17 @@
+{
+  "experiment": "008",
+  "description": "inverse tree compression and hidden branch variable n",
+  "H_digits_for_examples": 300000,
+  "source": "generated decimal pi digits with mpmath",
+  "mpmath_generation_seconds": 1.3085534572601318,
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899",
+  "files": [
+    "REPORT.md",
+    "hidden_branch_n_examples.csv",
+    "inverse_comb_quaternary_cells_D2.png",
+    "inverse_preimage_grid_counts.csv",
+    "inverse_symbolic_length.png",
+    "inverse_tree_branch_count.png",
+    "inverse_tree_symbolic_vs_explicit.csv"
+  ]
+}

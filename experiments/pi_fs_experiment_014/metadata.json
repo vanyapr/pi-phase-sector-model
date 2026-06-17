@@ -1,0 +1,54 @@
+{
+  "experiment": "014",
+  "description": "algebraic decimal suffix recovery from cross-base sector certificate",
+  "source": "generated decimal pi digits with mpmath",
+  "generation_seconds": 28.370415687561035,
+  "experiment_seconds": 0.03763914108276367,
+  "H_MAX": 2000000,
+  "configs": [
+    {
+      "known_n": 99,
+      "hidden_k": 1,
+      "cert_base": 4
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 1,
+      "cert_base": 4
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 5,
+      "cert_base": 4
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 10,
+      "cert_base": 4
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 100,
+      "cert_base": 4
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 10,
+      "cert_base": 2
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 10,
+      "cert_base": 16
+    }
+  ],
+  "offsets": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "num_cutoffs": 126,
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+}

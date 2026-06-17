@@ -1,0 +1,21 @@
+{
+  "experiment": "018",
+  "description": "recover next 10 digits beyond artificial known boundary using independent Machin-formula certificate",
+  "H_values": [
+    10000,
+    50000,
+    100000
+  ],
+  "known_tail_len": 100,
+  "hidden_k": 10,
+  "cert_base": 16,
+  "cert_offset": 2,
+  "guard": 80,
+  "need_digits": 100310,
+  "ground_truth_source": "mp.pi",
+  "external_certificate_source": "Machin formula 16 atan(1/5) - 4 atan(1/239)",
+  "ground_truth_seconds": 0.04940295219421387,
+  "machin_seconds": 10.860318899154663,
+  "machin_mp_pi_agreement_prefix_digits": 100310,
+  "first_80_ground_truth_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+}

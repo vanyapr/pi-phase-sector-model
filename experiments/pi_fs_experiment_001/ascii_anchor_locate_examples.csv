@@ -1,0 +1,6 @@
+text,target,bits_length,base4_length,base4_pattern,position_base4_1indexed,position_binary_1indexed_if_aligned,expected_random_scale_base4
+he,0_4 + he,18,9,012201211,375057,750113,262144
+hel,0_4 + hel,26,13,0122012111230,-1,-1,67108864
+hell,0_4 + hell,34,17,01220121112301230,-1,-1,4^17
+hello,0_4 + hello,42,21,012201211123012301233,-1,-1,4^21
+hello world,0_4 + hello world,90,45,012201211123012301233020013131233130212301210,-1,-1,4^45
