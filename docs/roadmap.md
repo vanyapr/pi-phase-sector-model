@@ -7,6 +7,7 @@
 - 2026-06-17: Added Russian and English root README files.
 - 2026-06-17: Verified `modules/pifs_proportion_module` with `python3 -m unittest discover` from the module directory.
 - 2026-06-17: Updated the repository to the v4 journal package with `main_ru_v4.*`, Machin-certificate demo scripts, and refreshed Russian/English README documentation.
+- 2026-06-18: Updated the repository to the v7 manuscript package with `main_ru_v7.*`, `code/` helpers, restored root CSV summaries, and refreshed decoder/proof-object documentation.
 
 ## Next
 
