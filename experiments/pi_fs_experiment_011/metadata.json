@@ -1,0 +1,14 @@
+{
+  "experiment": "011",
+  "description": "anchor-relative negative indexing",
+  "decimal_horizon": 1000000,
+  "base4_horizon": 1000000,
+  "context_left": 16,
+  "context_right": 16,
+  "decimal_source": "generated decimal pi digits with mpmath",
+  "decimal_generation_seconds": 11.83292531967163,
+  "base4_source": "generated base-4 pi digits with mpmath",
+  "base4_generation_seconds": 0.3610100746154785,
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899",
+  "first_80_base4_digits": "02100333122220202011220300203103010301212022023200031300130310102210002103200202"
+}

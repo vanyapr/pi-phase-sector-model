@@ -1,0 +1,12 @@
+{
+  "H_boundary": 2000000,
+  "position_first_hidden_digit": 2000001,
+  "known_tail_100": "9621215177020957897106655259236971933822822674913229071744735892565046166373563236871065191457297909",
+  "recovered_next_10_digits": "6121731251",
+  "true_next_10_digits": "6121731251",
+  "next_30_actual": "612173125117978466726688273303",
+  "certificate_base": 16,
+  "certificate_depth": 94,
+  "candidate_count_after_prefix_intersection": 1,
+  "success": true
+}

@@ -1,0 +1,27 @@
+{
+  "experiment": "017",
+  "description": "recover next 10 decimal digits at artificial boundaries from known_tail_100 plus cross-base certificate",
+  "source": "generated decimal pi digits with mpmath",
+  "generation_seconds": 28.493399143218994,
+  "H_values": [
+    100000,
+    500000,
+    1000000,
+    2000000
+  ],
+  "known_n": 100,
+  "hidden_k": 10,
+  "cert_bases": [
+    4,
+    16
+  ],
+  "offsets": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "guard": 90,
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+}

@@ -1,0 +1,26 @@
+{
+  "experiment": "007",
+  "description": "walk-forward zero-block prediction on already computed pi digits",
+  "H_decimal_positions": 2000000,
+  "source": "generated decimal pi digits with mpmath",
+  "mpmath_dps": 2000031,
+  "generation_seconds": 29.517972230911255,
+  "D_values": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "K_values": [
+    87,
+    1221,
+    5669
+  ],
+  "top_fracs": [
+    0.01,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+}

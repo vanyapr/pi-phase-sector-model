@@ -1,0 +1,28 @@
+{
+  "experiment": "004",
+  "description": "matrix target transform + decimal resonance coordinates",
+  "H_decimal_positions_scanned": 200000,
+  "mpmath_dps": 200100,
+  "generated_seconds": 0.6440036296844482,
+  "resonances": [
+    {
+      "name": "K87_N175",
+      "K": 87,
+      "N": 175
+    },
+    {
+      "name": "K1221_N2456",
+      "K": 1221,
+      "N": 2456
+    }
+  ],
+  "files": [
+    "REPORT.md",
+    "decimal_zero_to_quaternary_certifying_cells.csv",
+    "first_zero_hits_resonance_coordinates.csv",
+    "matrix_resonance_scan_summary.csv",
+    "zero_block_certificate_precision.png",
+    "zero_block_counts_matrix_transform.png",
+    "zero_block_transform_recall.png"
+  ]
+}

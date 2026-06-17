@@ -1,0 +1,20 @@
+{
+  "experiment": "006",
+  "description": "Resonant spiral arm memory and candidate lift",
+  "H": 500000,
+  "Lmax": 12,
+  "K_values": [
+    1,
+    2,
+    5,
+    87,
+    1221,
+    5669
+  ],
+  "source": "generated decimal pi digits with mpmath",
+  "mpmath_dps": 500051,
+  "gen_seconds": 5.431864023208618,
+  "cell_build_seconds": 0.28455209732055664,
+  "P_decimal_window": 26,
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+}

@@ -1,0 +1,37 @@
+{
+  "experiment": "009",
+  "description": "read exact quaternary words at resonant pointer addresses",
+  "H_base4_digits": 1000000,
+  "word_L": 12,
+  "preview_L": 24,
+  "source": "generated base-4 pi digits with mpmath",
+  "generation_seconds": 7.836211681365967,
+  "first_80_base4_digits": "02100333122220202011220300203103010301212022023200031300130310102210002103200202",
+  "periods": [
+    {
+      "name": "base4_res_K109",
+      "K": 109,
+      "kind": "base4_resonance"
+    },
+    {
+      "name": "base4_res_K635",
+      "K": 635,
+      "kind": "base4_resonance"
+    },
+    {
+      "name": "base4_res_K3284",
+      "K": 3284,
+      "kind": "base4_resonance"
+    },
+    {
+      "name": "base4_res_K15785",
+      "K": 15785,
+      "kind": "base4_resonance"
+    },
+    {
+      "name": "decimal_res_K1221",
+      "K": 1221,
+      "kind": "decimal_resonance_pointer"
+    }
+  ]
+}

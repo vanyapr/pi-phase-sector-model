@@ -1,0 +1,7 @@
+D_decimal_zeros,H_decimal_positions_scanned,direct_hits,contained_cert_hits,intersect_candidates,boundary_candidates,false_contained_hits,false_boundary_candidates,contained_recall_of_direct,intersect_recall_of_direct,contained_precision,intersect_precision,first_direct_M,first_contained_M,first_intersect_M
+1,200000,20104,12564,25209,12645,0,5105,0.624950258654994,1.0,1.0,0.7974929588638978,31.0,31.0,31
+2,200000,2040,1595,2402,807,0,362,0.7818627450980392,1.0,1.0,0.8492922564529559,306.0,306.0,306
+3,200000,197,192,399,207,0,202,0.9746192893401016,1.0,1.0,0.49373433583959897,600.0,600.0,359
+4,200000,18,9,23,14,0,5,0.5,1.0,1.0,0.782608695652174,13389.0,17533.0,13389
+5,200000,1,1,2,1,0,1,1.0,1.0,1.0,0.5,17533.0,17533.0,17533
+6,200000,0,0,1,1,0,1,,,,0.0,,,17533

@@ -1,0 +1,16 @@
+{
+  "experiment": "003",
+  "description": "sector transform matrices between base partitions",
+  "created": "2026-06-16 20:02:59",
+  "stream_source": "fallback random base-4 stream; mechanics only",
+  "files": [
+    "REPORT.md",
+    "binary_quaternary_exact_mapping.csv",
+    "decimal_to_quaternary_boundary_cells.png",
+    "decimal_to_quaternary_mean_intersections.png",
+    "decimal_to_quaternary_overlap_stats.csv",
+    "decimal_zero_to_quaternary_depths.csv",
+    "dynamics_matrix_summary.csv",
+    "same_orbit_decimal_sector_queries_via_base4_index.csv"
+  ]
+}

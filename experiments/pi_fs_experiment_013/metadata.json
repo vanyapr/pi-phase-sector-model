@@ -1,0 +1,18 @@
+{
+  "experiment": "013",
+  "description": "boundary next-digit continuation by 10 candidates + independent certificate",
+  "source": "generated decimal pi digits with mpmath",
+  "generation_seconds": 16.226166248321533,
+  "tail_len": 100,
+  "predict_len": 100,
+  "guard_len": 32,
+  "cuts": [
+    10000,
+    50000,
+    100000,
+    500000,
+    1000000,
+    1500000
+  ],
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+}

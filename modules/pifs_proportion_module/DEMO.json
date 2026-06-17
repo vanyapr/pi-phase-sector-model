@@ -1,0 +1,65 @@
+{
+  "decimal_zero_1000_to_base4": {
+    "source_base": 10,
+    "source_depth": 1000,
+    "source_cell": 0,
+    "target_base": 4,
+    "target_depth": 1661,
+    "intersect": [
+      0,
+      1
+    ],
+    "intersect_count": 2,
+    "contained": [
+      0,
+      0
+    ],
+    "contained_count": 1,
+    "boundary_count": 1
+  },
+  "decimal_zero_6_to_base4": {
+    "source_base": 10,
+    "source_depth": 6,
+    "source_cell": 0,
+    "target_base": 4,
+    "target_depth": 10,
+    "intersect": [
+      0,
+      1
+    ],
+    "intersect_count": 2,
+    "contained": [
+      0,
+      0
+    ],
+    "contained_count": 1,
+    "boundary_count": 1
+  },
+  "binary_quaternary_example": {
+    "source_base": 4,
+    "source_depth": 4,
+    "source_cell": 123,
+    "target_base": 2,
+    "target_depth": 8,
+    "intersect": [
+      123,
+      123
+    ],
+    "intersect_count": 1,
+    "contained": [
+      123,
+      123
+    ],
+    "contained_count": 1,
+    "boundary_count": 0
+  },
+  "medium_resonance_in_pairs": [
+    {
+      "N": 2456,
+      "K": 1221,
+      "K_over_N": 0.4971498371335505,
+      "log_error": 0.0002011003971347236,
+      "relative_error_approx": 0.0002011003971347236
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+future_digits,candidate_digits_per_step,known_prefix_anchor_len,certificate_transforms_per_step,total_candidate_checks,total_alignment_work_fixed_100_tail,asymptotic_fixed_tail,asymptotic_tail_log_H,note
+1,10,100,10,10,1000,O(n),O(n log H),independent cross-base certificate must be available at each step
+10,10,100,10,100,10000,O(n),O(n log H),independent cross-base certificate must be available at each step
+100,10,100,10,1000,100000,O(n),O(n log H),independent cross-base certificate must be available at each step
+1000,10,100,10,10000,1000000,O(n),O(n log H),independent cross-base certificate must be available at each step
+10000,10,100,10,100000,10000000,O(n),O(n log H),independent cross-base certificate must be available at each step

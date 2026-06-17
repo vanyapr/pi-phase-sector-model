@@ -1,0 +1,6 @@
+future_digits_n,one_digit_candidates_per_step,candidate_checks_total,fixed_tail_alignment_len,alignment_work_if_checked_each_candidate,asymptotic_fixed_tail,asymptotic_tail_len_log_H,requires
+1,10,10,100,1000,O(n),O(n log H),independent external sector certificate per step or per block
+10,10,100,100,10000,O(n),O(n log H),independent external sector certificate per step or per block
+100,10,1000,100,100000,O(n),O(n log H),independent external sector certificate per step or per block
+1000,10,10000,100,1000000,O(n),O(n log H),independent external sector certificate per step or per block
+10000,10,100000,100,10000000,O(n),O(n log H),independent external sector certificate per step or per block

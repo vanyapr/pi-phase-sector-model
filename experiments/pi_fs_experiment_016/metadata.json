@@ -1,0 +1,58 @@
+{
+  "experiment": "016",
+  "description": "formal external sector certificate lemma validation",
+  "source": "generated decimal pi digits with mpmath",
+  "generation_seconds": 28.449320316314697,
+  "experiment_seconds": 0.3285036087036133,
+  "H_MAX": 2000000,
+  "num_boundaries": 256,
+  "configs": [
+    {
+      "known_n": 20,
+      "hidden_k": 1
+    },
+    {
+      "known_n": 50,
+      "hidden_k": 1
+    },
+    {
+      "known_n": 99,
+      "hidden_k": 1
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 1
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 5
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 10
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 50
+    },
+    {
+      "known_n": 100,
+      "hidden_k": 100
+    }
+  ],
+  "cert_bases": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "offsets": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "guard_digits": 90,
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+}

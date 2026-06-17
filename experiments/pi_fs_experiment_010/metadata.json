@@ -1,0 +1,17 @@
+{
+  "H_decimal_positions": 500000,
+  "Lmax4": 11,
+  "Q_cert": 4,
+  "B_phase": 10,
+  "N4_cells": 4194304,
+  "occupied_cells": 471113,
+  "occupancy_fraction": 0.11232209205627441,
+  "P_decimal_suffix_digits_for_cell": 31,
+  "digit_source": "generated decimal pi digits with mpmath",
+  "digit_generation_seconds": 7.668944835662842,
+  "build_cells_seconds": 0.8201475143432617,
+  "query_seconds": 6.155343055725098,
+  "K_resonance": 1221,
+  "N_resonance": 2456,
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+}

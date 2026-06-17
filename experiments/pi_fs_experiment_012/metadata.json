@@ -1,0 +1,21 @@
+{
+  "experiment": "012",
+  "description": "100-digit boundary tail anchor uniqueness and +1 candidate set",
+  "source": "generated decimal pi digits with mpmath",
+  "generation_seconds": 28.145358324050903,
+  "H_MAX": 2000000,
+  "tail_lengths": [
+    20,
+    50,
+    100
+  ],
+  "cuts": [
+    10000,
+    50000,
+    100000,
+    500000,
+    1000000,
+    2000000
+  ],
+  "first_80_decimal_digits": "14159265358979323846264338327950288419716939937510582097494459230781640628620899"
+}

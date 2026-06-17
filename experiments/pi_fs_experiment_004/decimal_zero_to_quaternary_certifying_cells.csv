@@ -1,0 +1,7 @@
+D_decimal_zeros,L4,intersect_cells,contained_cells,boundary_cells,intersect_range,contained_range,boundary_cells_list,claim
+1,2,2,1,1,0..1,0..0,1,base4 cells [0] at depth 2 certify 1 decimal zeros
+2,4,3,2,1,0..2,0..1,2,"base4 cells [0, 1] at depth 4 certify 2 decimal zeros"
+3,5,2,1,1,0..1,0..0,1,base4 cells [0] at depth 5 certify 3 decimal zeros
+4,7,2,1,1,0..1,0..0,1,base4 cells [0] at depth 7 certify 4 decimal zeros
+5,9,3,2,1,0..2,0..1,2,"base4 cells [0, 1] at depth 9 certify 5 decimal zeros"
+6,10,2,1,1,0..1,0..0,1,base4 cells [0] at depth 10 certify 6 decimal zeros

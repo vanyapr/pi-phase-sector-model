@@ -1,0 +1,12 @@
+{
+  "H": 1000000,
+  "position_after_decimal": 1000001,
+  "known_tail_100": "0315614033321272849194418437150696552087542450598956787961303311646283996346460422090106105779458151",
+  "recovered_next_digit": "3",
+  "true_next_digit": "3",
+  "next_20_actual": "30927562832084531584",
+  "certificate_base": 4,
+  "certificate_depth": 172,
+  "candidate_count_after_proportional_intersection": 1,
+  "success": true
+}
